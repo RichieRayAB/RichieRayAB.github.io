@@ -1,0 +1,105 @@
+/*=====================================
+Bootstrap media devices
+======================================*/
+/*Large Devices (Desktops and Laptops)*/
+@media(min-width: 1200px) and (max-width: 1299px){
+   
+    //navigation
+    .site-nav-wrapper{
+        padding:0 20px;
+    }
+}
+/*medium Devices (medium Desktops and landscape tablets)*/
+
+@media(min-width: 992px) and (max-width: 1199px){
+    /*navigation*/
+    .site-nav-wrapper {
+        padding: 0;
+    }
+    /*Generic*/
+    .vertical-heading h2 {
+        font-size: 29px;
+    }
+    /*service 02*/
+    #services-tabs .tab-bg {
+        padding: 43px 30px 30px 30px;
+        min-height: 60px;
+    }
+    .service-tab p {
+       line-height: 20px;
+    }
+}
+/*small Devices (portrait tablets and small desktop)*/
+
+@media(min-width: 768px) and (max-width: 991px){
+        /*navigation*/
+    .site-nav-wrapper {
+        padding: 0;
+    }
+    /*Home*/
+    #home-heading h1{
+        font-size: 41px;
+    }
+    #home-text p{ font-size: 13px;}
+    /*button*/
+    .btn-general{
+        padding: 8px 35px 8px 35px;
+        font-size: 10px
+    }
+    /*Generic*/
+    .vertical-heading h2 {
+        font-size: 29px;
+    }
+    /*Tech Statement*/
+    #tech-statement h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    /*services 02*/
+    .r-tabs-accordion-title {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .r-tabs-accordion-title a{
+        font-family: "Raleway", sans-serif;
+        font-size: 13px;
+        color: #212226;
+        text-transform: uppercase;
+        font-weight: 400;
+        padding: 0;
+        text-decoration: none;
+    }
+     /*Tab Active State*/
+    .r-tabs-accordion-title.r-tabs-state-active a{
+        color: #f4c613;
+        font-weight: 700;
+        border-bottom: 3px solid #f4c613;
+        padding-bottom: 5px;
+        -webkit-transition: border-color 300ms  linear;
+        -webkit-transition: border-color 300ms linear;
+        transition: border-color 300ms linear;
+    }
+    
+    /*Pricing*/
+    .pricing-table .price h2{
+        margin: 0 0 0 6px;
+        font-size: 35px;
+    }
+    /*blog*/
+    
+    .blog-post .post-meta p{
+        margin-right: 15px;
+    }
+    /*contact*/
+    ul.office-details li i{
+        width: 25px;
+    }
+    ul.office-details li i{
+        width: 25px;
+    }
+}
+/*extra small Devices (landscape phones and portrait tablets)*/
+
+@media (max-width: 767px){
+
+}
